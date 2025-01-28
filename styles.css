@@ -1,1 +1,44 @@
-/*  your css code here. If applicable */
+.*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box
+}
+
+.container{
+	width:600px;
+	height:200px;
+	border-radius:50px;
+	background-color:grey;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+.item1{
+	width:15px;
+	height:15px;
+	padding:20px;
+	margin:5px;
+	background-color:green;
+	border-radius:50%;
+	
+}
+.item2{
+	width:15px;
+	height:15px;
+	padding:20px;
+	margin:5px;
+	background-color:yellow;
+	border-radius:50%;
+	
+}
+.item3{
+	width:15px;
+	height:15px;
+	padding:20px;
+	margin:5px;
+	background-color:red;
+	border-radius:50%;
+	
+}
+
